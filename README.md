@@ -1,2 +1,20 @@
 # Vision
 컴퓨터비전 소스코드
+
+상단 플랫폼을 x64로 바꾸고, 프로젝트 우클릭 → 속성
+
+C/C++ → 일반 → 추가 포함 디렉터리: C:\opencv\build\include
+C/C++ → 언어 → C++ 언어 표준: ISO C++17
+C/C++ → 명령줄 → 추가 옵션: /utf-8
+링커 → 일반 → 추가 라이브러리 디렉터리: C:\opencv\build\x64\vc16\lib
+링커 → 입력 → 추가 종속성: opencv_world4100d.lib (Debug 기준)
+
+dll 파일 복사
+C:\opencv\build\x64\vc16\bin에 있는 opencv_world4100d.dll을 실행 파일 옆(x64\Debug\)에 복사하거나, 그 폴더를 PATH에 추가하세요.
+
+경로랑 파일명은 설치한 OpenCV에 맞게 바꾸세요
+
+4100은 OpenCV 4.10.0 기준이라 버전마다 숫자가 달라요. lib 폴더에 있는 실제 파일명을 그대로 쓰면 돼요.
+Release로 빌드하면 끝의 d가 빠진 파일을 써요.
+vc16 폴더가 없으면 vc15나 vc17 같은 다른 폴더명일 수 있어요.
+OpenCV를 C드라이브 말고 다른 데 설치했다면 그 경로로 바꿔 주세요.
