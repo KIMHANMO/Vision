@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ArUco car.vcxproj" Id="80076eb9-706d-41fb-a271-63a0eda71c64" />
+</Solution>

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ArUco car\\x64\\Debug\\MarkerInfo.obj",
+            "outputs": [
+                "ArUco car\\x64\\Debug\\MarkerInfo.cpp.obj.dt.module.json",
+                "ArUco car\\x64\\Debug\\MarkerInfo.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
